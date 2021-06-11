@@ -7,17 +7,17 @@
     "os_name": "posix",
     "platform": "macOS-10.16-x86_64-i386-64bit",
     "processor": "i386",
-    "release": "20.3.0",
+    "release": "20.5.0",
     "system": "Darwin",
     "uname": [
         "Darwin",
-        "192-168-1-117.tpgi.com.au",
-        "20.3.0",
-        "Darwin Kernel Version 20.3.0: Thu Jan 21 00:07:06 PST 2021; root:xnu-7195.81.3~1/RELEASE_X86_64",
+        "Soos-MacBook-Pro.local",
+        "20.5.0",
+        "Darwin Kernel Version 20.5.0: Sat May  8 05:10:33 PDT 2021; root:xnu-7195.121.3~9/RELEASE_X86_64",
         "x86_64",
         "i386"
     ],
-    "version": "Darwin Kernel Version 20.3.0: Thu Jan 21 00:07:06 PST 2021; root:xnu-7195.81.3~1/RELEASE_X86_64",
+    "version": "Darwin Kernel Version 20.5.0: Sat May  8 05:10:33 PDT 2021; root:xnu-7195.121.3~9/RELEASE_X86_64",
     "python_build": [
         "default",
         "Apr 13 2021 12:59:45"
