@@ -52,7 +52,7 @@ def loops_1a():
     """
     stars = []
     for i in range(10):
-        stars.append('*')
+        stars.append("*")
 
     return stars
 
@@ -187,7 +187,7 @@ def loops_5():
     for i in range(10):
         coordinates_row = []
         for j in range(5):
-            coordinates_row.append(f'(i{i}, j{j})')
+            coordinates_row.append(f"(i{i}, j{j})")
         number_square.append(coordinates_row)
     print(number_square)
     return number_square
@@ -244,7 +244,15 @@ def loops_7():
     This is a hard problem. Use lots of experimentation and draw
     lots of diagrams!
     """
-    return None
+
+
+row = 5
+for i in range(row):
+    for j in range(row - i):
+        print(" ", end="")
+    for j in range(2 * i + 1):
+        print("*", end="")
+    print()
 
 
 def little_printer(some_kind_of_list, exercise_name):
