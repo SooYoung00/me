@@ -245,14 +245,29 @@ def loops_7():
     lots of diagrams!
     """
 
+    pyramid = []
+    height = 5
+    width = 9
+    count = 2
 
-row = 5
-for i in range(row):
-    for j in range(row - i):
-        print(" ", end="")
-    for j in range(2 * i + 1):
-        print("*", end="")
-    print()
+    for i in range(height):
+        divfact = width // count
+        pyramidline = []
+        if count < (2 * width) / 3:
+            for j in range(divfact):
+                pyramidline.append(" ")
+            for k in range(width - (divfact * 2)):
+                pyramidline.append("*")
+            for l in range(divfact):
+                pyramidline.append(" ")
+        else:
+            for m in range(width):
+                pyramidline.append("*")
+
+        count = count + 1
+        pyramid.append(pyramidline)
+
+    return pyramid
 
 
 def little_printer(some_kind_of_list, exercise_name):
