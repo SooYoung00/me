@@ -270,6 +270,21 @@ def loops_7():
     return pyramid
 
 
+def loop7():
+    column = []
+    for x in range(5):
+        rows = []
+        for y in range(9):
+            if abs(y - 4) <= x:
+                rows.append("*")
+            else:
+                rows.append(" ")
+        column.append(rows)
+
+        print(column)
+        return column
+
+
 def little_printer(some_kind_of_list, exercise_name):
     """Help to see what's going on.
 
